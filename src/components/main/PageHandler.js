@@ -1,9 +1,10 @@
-import AboutMe from './components/main/AboutMe.js';
-import Projects from './components/projects/Projects.js';
-import Skills from './components/skills/Skills.js';
-import Blogs from './components/blogs/Blogs.js';
-import Contact from './components/contact/Contact.js';
-import PageNotFound from './components/PageNotFound.js';
+
+import AboutMe from '../main/AboutMe.js'
+import Skills from '../skills/Skills.js';
+import Contact from '../contact/Contact.js';
+import PageNotFound from './PageNotFound.js';
+import Projects from '../projects/Projects.js';
+import Blogs from '../blogs/Blogs.js';
 
 
 export default function PageHandler(props) {
