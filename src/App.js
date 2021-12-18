@@ -10,10 +10,10 @@ function App() {
     <nav>
       <h1>RIFATUL KARIM</h1>
       <ul class="navigation">
-        <li><a href='=#about' class="nav-link" onClick={() => setLinkClicked("about")}></a>About</li>
-        <li><a href='=#skills' class="nav-link" onClick={() => setLinkClicked("skills")}></a>Skills</li>
-        <li><a href='=#projects' class="nav-link" onClick={() => setLinkClicked("projects")}></a>Projects</li>
-        <li><a href='=#contact' class="nav-link" onClick={() => setLinkClicked("contact")}></a>Contact</li>
+        <li><p class="nav-link" onClick={() => setLinkClicked("about")}></p>About</li>
+        <li><p class="nav-link" onClick={() => setLinkClicked("skills")}></p>Skills</li>
+        <li><p class="nav-link" onClick={() => setLinkClicked("projects")}></p>Projects</li>
+        <li><p onClick={() => setLinkClicked("contact")}></p>Contact</li>
       </ul>
     </nav>  
 
@@ -28,17 +28,13 @@ function renderChoice(choice) {
     case "about": 
       return <AboutMe />
     case "skills":
-      console.log("check out my skills!!");
-      break;
+      return <AboutMe />
     case "projects":
-      console.log("check out my projects!!");
-      break;
+      <Projects />
     case "contact":
-      console.log("check out my contacts!!");
-      break;  
+      <Contact />
     default:
-      console.log("so your choice was " + choice);
-      break;  
+      <PageNotFound />  
   }
 }
 
