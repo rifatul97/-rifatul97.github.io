@@ -6,6 +6,7 @@ function App() {
   const [linkClicked, setLinkClicked] = useState("about");
 
   return (
+    <div>
     <nav>
       <h1>RIFATUL KARIM</h1>
       <ul class="navigation">
@@ -17,6 +18,7 @@ function App() {
     </nav>  
 
     {renderChoice(linkClicked)}
+    </div>
   );
 }
 
