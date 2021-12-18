@@ -1,4 +1,4 @@
-export default function Skills () {
+export default function Blogs () {
     return (
         <p>
             Wrong page!!

@@ -6,12 +6,12 @@ import Contact from './components/contact/Contact.js';
 import PageNotFound from './components/PageNotFound.js';
 
 
-export default function renderChoice(props) {
+export default function PageHandler(props) {
     switch(props.linkClicked) {
       case "about": 
         return <AboutMe />
-      case "skills":
-        return <Skills />
+      case "blogs":
+        return <Blogs />
       case "projects":
         return <Projects />
       case "contact":
