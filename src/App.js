@@ -6,12 +6,12 @@ function App() {
     <nav>
       <h1>RIFATUL KARIM</h1>
       <ul class="navigation">
-        <li><a href='=#about' class="nav-link">About</li>
-        <li><a href='=#skills' class="nav-link">Skills</li>
-        <li><a href='=#projects' class="nav-link">Projects</li>
-        <li><a href='=#contact' class="nav-link">Contact</li>
+        <li><a href='=#about' class="nav-link"></a>About</li>
+        <li><a href='=#skills' class="nav-link"></a>Skills</li>
+        <li><a href='=#projects' class="nav-link"></a>Projects</li>
+        <li><a href='=#contact' class="nav-link"></a>Contact</li>
       </ul>
-      
+
     </nav>  
   );
 }
