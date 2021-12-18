@@ -14,10 +14,9 @@ function App() {
         <li><a href='=#projects' class="nav-link" onClick={setLinkClicked("projects")}></a>Projects</li>
         <li><a href='=#contact' class="nav-link" onClick={setLinkClicked("contact")}></a>Contact</li>
       </ul>
-
-      {renderChoice(linkClicked)}
-
     </nav>  
+
+    {renderChoice(linkClicked)}
   );
 }
 
@@ -29,7 +28,7 @@ function renderChoice(choice) {
       console.log("check out my skills!!");
       break;
     case "projects":
-      console.log("check out my skills!!");
+      console.log("check out my projects!!");
       break;
     case "contact":
       console.log("check out my contacts!!");
