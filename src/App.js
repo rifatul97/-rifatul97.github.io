@@ -10,10 +10,10 @@ function App() {
     <nav>
       <h1>RIFATUL KARIM</h1>
       <ul class="navigation">
-        <li><a href='=#about' class="nav-link" onClick={setLinkClicked("about")}></a>About</li>
-        <li><a href='=#skills' class="nav-link" onClick={setLinkClicked("skills")}></a>Skills</li>
-        <li><a href='=#projects' class="nav-link" onClick={setLinkClicked("projects")}></a>Projects</li>
-        <li><a href='=#contact' class="nav-link" onClick={setLinkClicked("contact")}></a>Contact</li>
+        <li><a href='=#about' class="nav-link" onClick={() => setLinkClicked("about")}></a>About</li>
+        <li><a href='=#skills' class="nav-link" onClick={() => setLinkClicked("skills")}></a>Skills</li>
+        <li><a href='=#projects' class="nav-link" onClick={() => setLinkClicked("projects")}></a>Projects</li>
+        <li><a href='=#contact' class="nav-link" onClick={() => setLinkClicked("contact")}></a>Contact</li>
       </ul>
     </nav>  
 
@@ -21,6 +21,7 @@ function App() {
     </div>
   );
 }
+
 
 function renderChoice(choice) {
   switch(choice) {
